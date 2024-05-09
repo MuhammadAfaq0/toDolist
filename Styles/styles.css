@@ -1,0 +1,37 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(180, 180, 67);
+}
+
+#todo-list {
+  max-width: 400px;
+  margin: 200px auto;
+}
+
+#todo-list input {
+  width: 80%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+#todo-list button {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
